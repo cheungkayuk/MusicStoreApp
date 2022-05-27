@@ -1,0 +1,127 @@
+h1 {
+    color: brown;
+    margin-left: 20px;
+    font-family: Arial;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+
+.headimg{
+    width: 300px;
+}
+
+
+
+#shopname{
+    color: cadetblue;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.arrival{
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#musicname{
+    font-size: 20px;
+}
+
+#hiddenarrow{
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#musicid{
+    display: none;
+}
+
+#username{
+    display: none;
+}
+
+#loginout{
+    float: right;
+}
+
+.topright{
+    margin-left: 20px;
+    display: inline;
+    float: right;
+}
+
+#cartnumber{
+    margin-right: 20px;
+    margin-left: 3px;
+}
+
+#toppart{
+    border-bottom: solid;
+    border-color: black;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+#bottompart{
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+#quantitybar{
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+#quantitylabel{
+    font-size: 18px;
+}
+
+
+#orderbutton{
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+}
+
+#des{
+    line-height: 2;
+    font-size: 15px;
+}
+
+#price {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#search{
+    margin-top: 20px;
+}
+
+#searchbar{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 20px;
+
+}
+
+#searchbutton{
+    background-color: antiquewhite;
+    margin-left: -25px;
+}
+

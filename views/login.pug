@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+
+</HEAD>
+
+
+<BODY> 
+  <div id="shopname">Music Shop</div>
+
+  <div id="cartnumber" class=topright>#{cartnum}</div>
+  <a href="/cart" id="cart" class="topright">Cart:</a>
+  <a href="/register" id="register" class="topright">Register</a>
+  <a href="/login" id="login" class="topright">Sign In</a><br>
+
+  <div id="search">
+    <input id="searchbar" placeholder="Keyword(s)">
+    <button id="searchbutton">Search</button>
+  </div>
+
+  <form action = "login" method = "post">
+    <p id = "error">
+      if msg != null
+        span= msg
+      else
+        span= ""
+    </p>
+    <fieldset name="logininfo">
+      <legend>Login</legend>
+      <label for = "username">Username:</label> 
+      <input type = "text" name = "username" id = "username" placeholder = "Username"><br> 
+      <label for = "password">Password:</label>
+      <input type = "password" name = "password" id = "password" placeholder = "Password"><br> 
+      <button type = "submit" name = "login" id="okbutton">SUBMIT</button>
+    </fieldset>
+  </form>
+
+  a(href = "/register", class = "reg_link") CREATE
+  a(href = "/mainpage/category/all", class = "reg_link") SHOP
+
+<link rel="stylesheet" href="/css/login.css">
+<script src="/js/login.js"></script>
+</BODY>
+</HTML>

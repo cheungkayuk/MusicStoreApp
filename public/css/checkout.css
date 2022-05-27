@@ -1,0 +1,156 @@
+p{
+    line-height: 1.6;
+}
+
+input{
+    margin-top: 10px;
+}
+
+
+#comfirmbutton{
+    margin-top: 30px;
+    background-color: greenyellow;
+}
+
+#deliverypart{
+    margin-left: 5%;
+}
+
+#unlogin{
+    margin-left: 5%;
+}
+
+
+
+#shopname{
+    color: cadetblue;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.arrival{
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#musicname{
+    font-size: 20px;
+}
+
+
+
+#username{
+    display: none;
+}
+
+#loginout{
+    float: right;
+}
+
+.topright{
+    margin-left: 20px;
+    display: inline;
+    float: right;
+}
+
+#cartnumber{
+    margin-right: 20px;
+    margin-left: 3px;
+}
+
+#yourorder{
+    margin-bottom: 10px;
+}
+
+#usermsg{
+    margin-left: 10px;
+    display: inline;
+    color: red;
+}
+
+#toppart{
+    
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 20px;
+}
+
+#cartinfo{
+    border-top: solid;
+    padding-top: 20px;
+    /* border-color: green; */
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+#bottompart{
+    padding-top: 30px;
+    margin-left: 5%;
+    margin-bottom: 40px;
+}
+
+#transactblock{
+    margin-left: 5%;
+}
+
+#orderbutton{
+    background-color: blue;
+    color: white;
+}
+
+.itemblock{
+    width: 60%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-bottom: solid;
+}
+
+#price{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#search{
+    margin-top: 20px;
+}
+
+#searchbar{
+    width: 50%;
+}
+
+#searchbutton{
+    background-color: antiquewhite;
+}
+
+#backbutton{
+    border: solid;
+    background-color: beige;
+    margin-right: 30px;
+    padding: 5px;
+    text-decoration: none
+}
+
+#checkoutbutton{
+    border: solid;
+    background-color: beige;
+    padding: 5px;
+    text-decoration: none
+}
+
+
+
+#transactblock{
+    /* margin-top: 50px;
+    border-top: solid; */
+}
+
+#guideline{
+    border-top: solid;
+    border-bottom: solid;
+}

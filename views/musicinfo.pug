@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<HTML>
+<BODY>
+  <div id="toppart"> 
+    <div id="shopname">Music Shop</div>
+    
+    <div id="cartnumber" class=topright>#{cartnum}</div>
+    <a href="/cart" id="cart" class="topright">Cart:</a>
+    <a href="" id="register" class="topright"></a>
+    <a href="" id="loginout" class="topright"></a><br>
+
+    <div id="search">
+      <input id="searchbar" placeholder="Keyword(s)">
+      <button id="searchbutton">Search</button>
+    </div>
+  </div>
+  <div id="bottompart">
+ 
+    <div id="musiccontent">
+      <a href="/mainpage/category/all" id= "homestatus"> Home </a>
+
+      <div id="hiddenarrow">  >   </div>
+      <a id=musiclink></a>
+  
+      <h2 id="musicid">#{musicid}</h2>
+      <div id="username">#{username}</div>
+      <div id="mainframe">
+        <h1 id="musicname"></h1>
+        <div id=imglocation></div>
+        <div id="mp3location">
+          <audio controls autoplay id="music">
+          </audio>
+        </div>
+        <div id="des"></div>
+        <div id="price"></div>
+      </div>
+    </div>
+    <label for = "quantitybar" id="quantitylabel">Order: </label>
+    <input id="quantitybar" value="1" name="quantitybar" type="number">
+    <button id="orderbutton">Add to Cart</button>
+  </div>
+  <link rel="stylesheet" href="/css/musicinfo.css">
+  <script src="/js/musicinfo.js"></script>
+  <title> MUSIC STORE</title>
+</BODY>
+</HTML>

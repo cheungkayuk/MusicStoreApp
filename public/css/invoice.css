@@ -1,0 +1,48 @@
+h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+
+}
+
+#address{
+    line-height: 1.3;
+    font-size: 20px;
+}
+
+#order{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#bottompart{
+    margin-top: 20px;
+}
+
+#toppart{
+    padding-left: 5%;
+    padding-bottom: 20px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: thin;
+    margin-top: 20px;
+}
+
+#thankyou{
+
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#okbutton{
+    background-color: grey;
+    border: solid;
+    border-width: thin;
+    background-color: rgb(235, 229, 229);
+    padding: 5px;
+    text-decoration: none;
+    position: relative;
+    left: 50%;
+    
+}

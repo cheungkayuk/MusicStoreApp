@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<HTML>
+<BODY>
+  <div id="toppart"> 
+    <div id="shopname">Music Shop</div>
+
+    <div id="username">#{username}</div>
+
+    <div id="cartnumber" class=topright>#{cartnum}</div>
+    <a href="/cart" id="cart" class="topright">Cart:</a>
+ 
+    <a href="" id="loginout" class="topright"></a><br>
+
+    <a href="/mainpage/category/all" id= "homestatus"> Home </a>
+  </div>
+
+  <div id="unlogin">
+    <div id="guideline">
+      <h1> I'm already a customer </h1>  
+      <a href="/login"> Sign In </a> <br>
+
+      <h1 id="newcustomer">I'm a new customer</h1>
+      <h2> Please Checkout Below </h2>
+    </div>
+
+    <div id="create">
+      <h1> Create Account </h1>
+      <label for = "desiredname">Desired Username:</label> 
+      <input type = "text" name = "desiredname" id = "desiredname" placeholder="Desired Username"><br> 
+      <label for = "desiredpassword">Desired Password:</label>
+      <input type = "password" name = "desiredpassword" id = "desiredpassword" placeholder="Desired Password"><br>
+      <div id="usermsg"></div>
+    </div>
+  </div>
+
+  
+  <div id="cartinfo">
+ 
+      <div id="yourorder"> your order: 
+        <a href="/cart" id="changebutton">(change)</a>
+      </div>
+      <div id="mainframe" class="container"></div>
+      
+      
+      <div id="price"></div>
+      
+     
+  </div>
+
+  <div id=deliverypart>
+    <form id="deliveryform">
+    <p id = "error">
+      if msg != null
+        span= msg
+      else
+        span= ""
+    </p>
+    <fieldset name="Delivery Address">
+      <legend>Delivery Address</legend>
+      <label for = "fullname">Fullname:</label> 
+      <input type = "text" name = "fullname" id = "fullname" placeholder="Required" required><br> 
+
+      <label for = "companyname">Company Name:</label> 
+      <input type = "text" name = "companyname" id = "companyname"><br> 
+
+      <label for = "addressline1">Address Line 1:</label> 
+      <input type = "text" name = "addressline1" id = "addressline1" placeholder="Required" required><br> 
+
+      <label for = "addressline2">Address Line 2:</label> 
+      <input type = "text" name = "addressline2" id = "addressline2"><br> 
+
+      <label for = "city">City:</label> 
+      <input type = "text" name = "city" id = "city" placeholder="Required" required><br> 
+
+      <label for = "region">Region/State/District</label> 
+      <input type = "text" name = "region" id = "region"><br> 
+
+      <label for = "country">Country</label> 
+      <input type = "text" name = "country" id = "country" placeholder="Required" required><br> 
+
+      <label for = "postcode">PostCode/Zip Code:</label>
+      <input type = "text" name = "postcode" id = "postcode" placeholder="Required" required><br> 
+
+      <button name = "comfirm" id="comfirmbutton">Confirm</button>
+    </fieldset>
+  </form>
+</div>
+
+  <link rel="stylesheet" href="/css/checkout.css">
+  <script src="/js/checkout.js"></script>
+  <title> MUSIC STORE</title>
+</BODY>
+</HTML>

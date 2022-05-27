@@ -1,0 +1,134 @@
+p{
+    line-height: 2;
+}
+
+
+
+.headimg{
+    width: 300px;
+}
+
+
+
+#shopname{
+    color: cadetblue;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.arrival{
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#musicname{
+    font-size: 20px;
+}
+
+#hiddenarrow{
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#musicid{
+    display: none;
+}
+
+#username{
+    display: none;
+}
+
+#loginout{
+    float: right;
+}
+
+.topright{
+    margin-left: 20px;
+    display: inline;
+    float: right;
+}
+
+#cartnumber{
+    margin-right: 20px;
+    margin-left: 3px;
+}
+
+#toppart{
+    border-bottom: solid;
+    border-color: black;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+#bottompart{
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+#orderbutton{
+    background-color: blue;
+    color: white;
+}
+
+.itemblock{
+    width: 60%;
+    padding: 20px;
+    border: solid;
+    margin-top: 30px;
+}
+
+#price{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#search{
+    margin-top: 20px;
+}
+
+#searchbar{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 20px;
+
+}
+
+#searchbutton{
+    background-color: antiquewhite;
+    margin-left: -25px;
+}
+
+#backbutton{
+    border: solid;
+    background-color: beige;
+    margin-right: 30px;
+    padding: 5px;
+    text-decoration: none
+}
+
+#checkoutbutton{
+    border: solid;
+    background-color: beige;
+    padding: 5px;
+    text-decoration: none
+}
+
+.deletebutton{
+    border: solid;
+    background-color:rgb(223, 221, 221);
+    padding: 5px;
+    text-decoration: none
+}
+
+#transactblock{
+    margin-top: 50px;
+    border-top: solid;
+}

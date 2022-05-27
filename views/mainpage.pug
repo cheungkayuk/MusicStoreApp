@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<HTML>
+<BODY>
+  <div id="toppart"> 
+  <div id="shopname">Music Shop</div>
+  <h1> Welcome <div id="username">#{username}</div></h1>
+
+    <div id="cartnumber" class=topright>#{cartnum}</div>
+    <a href="/cart" id="cart" class="topright">Cart:</a>
+    <a href="" id="register" class="topright"></a>
+    <a href="" id="loginout" class="topright"></a><br>
+
+    <div id="search">
+      <input id="searchbar" placeholder="Keyword(s)">
+      <button id="searchbutton">Search</button>
+      <div id="searchquery">#{query}</div>
+    </div>
+  
+    
+  
+  </div>
+  <div id="bottompart">
+    <div id="categorylist">
+      <h2> Category </h2>
+        <a href="/mainpage/category/classical" class= "categorylink"> Classical </a> <br>
+        <a href="/mainpage/category/baroque" class= "categorylink"> Baroque </a> <br>
+        <a href="/mainpage/category/romantic" class= "categorylink"> Romantic </a> <br>
+        <a href="/mainpage/category/late19th" class= "categorylink"> Late 19th </a> <br>
+    </div>
+    <div id="musiccontent">
+      <a href="/mainpage/category/all" id= "homestatus"> Home </a>
+
+      <div id="hiddenarrow">  >   </div>
+      <a id=selectedstatus></a>
+  
+      <h2 id="select">#{selectedcat}</h2>
+      <h2 id="hiddenfield"></h2>
+      <div id="mainframe" class="container"></div>
+    </div>
+  </div>
+  <link rel="stylesheet" href="/css/mainpage.css">
+  <script src="/js/mainpage.js"></script>
+  <title> MUSIC STORE</title>
+</BODY>
+</HTML>

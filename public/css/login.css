@@ -1,0 +1,51 @@
+#error {
+    color: #ff0000
+}   
+fieldset {
+    width: 70%;
+    padding-left:10%;
+}
+input {
+    margin:20px;
+    width:50%;
+}
+form{
+    margin-left: 20%;
+    margin-bottom:20px;
+}
+.reg_link {
+    margin-left: 30%;
+}
+#shopname{
+    color: cadetblue;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+#search{
+margin-top: 20px;
+}
+#searchbar{
+width: 60%;
+margin-left: 19%;
+margin-top: 20px;
+}
+#searchbutton{
+    background-color: antiquewhite;
+    margin-left:-30px;
+}
+
+.topright{
+    margin-left: 20px;
+    display: inline;
+    float: right;
+}
+
+#cartnumber{
+    margin-right: 20px;
+    margin-left: 3px;
+}
+
+.log_link {
+    margin-left: 30%
+}

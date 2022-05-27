@@ -1,0 +1,200 @@
+h1 {
+    color: brown;
+    margin-left: 20px;
+    font-family: Arial;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#mainbox{
+    background-color: rgb(245, 237, 237);
+}
+
+.topright{
+    margin-left: 20px;
+    display: inline;
+    float: right;
+}
+
+#cartnumber{
+    margin-right: 20px;
+    margin-left: 3px;
+}
+
+.headimg{
+    width: 200px;
+}
+
+#textblock{
+    /* background-color: white; */
+    width: 180px;
+    line-height: 1.6;
+    padding: 0px 10px 10px 10px;
+    border-top: dotted;
+    border-color: rgb(0, 0, 0);
+    
+}
+
+p{
+    font-family: Arial;
+
+    font-size: 12px;
+}
+
+#shopname{
+    color: cadetblue;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#mainframe{
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+
+.label{
+    margin-top: 20px;
+    display: inline;
+    float: right;
+}
+
+.container{
+    display: grid;
+
+    grid-column-gap: 20px;
+}
+
+.musicblock{
+    display: block;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    /* border: solid; */
+    /* border-color: rgb(0, 0, 0); */
+}
+
+.arrival{
+    color: red;
+    font-weight: bold;
+}
+
+#search{
+    margin-top: 20px;
+}
+
+#searchbar{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 20px;
+
+}
+
+#searchbutton{
+    background-color: antiquewhite;
+    margin-left: -25px;
+}
+
+#searchquery{
+    display: none;
+}
+
+#logoutlink{
+    float: right;
+}
+
+#categorylist {
+    float: left;
+    width: 15%;
+    border-right: solid;
+    border-color: black;
+    padding-left: 2%;
+    padding-right: 20px;
+}
+
+#toppart{
+    border-bottom: solid;
+    border-color: black;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+#bottompart {
+    display: flex;
+}
+  
+  /* Clear floats after the columns */
+#musiccontent {
+    display: table;
+    clear: both;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#hiddenarrow{
+    display: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#username{
+    display: inline;
+}
+
+#namebox{
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+#selectedstatus{
+    display: inline;
+}
+
+
+#homestatus{
+    display: inline;
+}
+
+.inlinetype{
+    display: inline;
+}
+
+
+@media screen and (min-width: 350px) {
+    .container{
+        grid-template-columns: repeat(1, 200px);
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .container{
+        grid-template-columns: repeat(2, 200px);
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .container{
+        grid-template-columns: repeat(3, 200px);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container{
+        grid-template-columns: repeat(4, 200px);
+    }
+}
+
+@media screen and (min-width: 1750px) {
+    .container{
+        grid-template-columns: repeat(5, 200px);
+    }
+}
